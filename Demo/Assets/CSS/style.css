@@ -1,5 +1,5 @@
 /* External Style CSS [has 3rd effect if you apply the three [inline-internal-external]style types on the same element]*/
-h4{/* Select by tag name */
+/* h4{/* Select by tag name 
     color: blueviolet;
     font-size: 50px;
     font-weight: lighter;
@@ -17,7 +17,7 @@ h6{
     color: green;
     font-size: 20px;
 }
-.boys{ /* Select by class name (.className) */
+.boys{ /* Select by class name (.className) 
     color: blue;
 }
 .girls{
@@ -35,12 +35,12 @@ h6{
 }
 #Hindosi{
     background-color: blueviolet;
-}
+} */
 /* *Select by ID Vs Select by class Vs Select by tag [on one element that has class attribute and id attribute with same style] */
 /* - Select by ID Has More Effect than Select by class and select by tag name */
 /* - Select by Class Name More Effect than Select by tag name */
 /* Even if the select by id came first and then select by class or tag name on the same element with same style effect */
-h6{
+/* h6{
     background-color: black;
 }
 .className{
@@ -48,4 +48,92 @@ h6{
 }
 #id{
     background-color: pink;
+} */
+
+
+.block{
+    width: fit-content;
+
+    /* border-top-width: 1px;
+    border-right-width: 2px;
+    border-bottom-width: 3px;
+    border-left-width: 4px; */
+
+    
+    /* border-top-style: solid;
+    border-right-style: dashed;
+    border-bottom-style: dotted;
+    border-left-style: double; */
+    
+    
+    /* border-top-color: red;
+    border-right-color: green;
+    border-bottom-color: blue;
+    border-left-color: burlywood; */
+    
+    /**           Short Hands              */
+    /* border-width:5px 10px 15px 20px; */
+    /* border-width: 5px; */
+    
+    /* border-style: solid dashed dotted double; */
+    /* border-style: solid; */
+
+    /* border-color: red green blue burlywood; */
+    /* border-color: red; */
+
+    border:red 5px solid;
+
+    /* 
+        padding-top: 30px;
+        padding-right: 50px;
+        padding-bottom: 10px;
+        padding-left: 20px; 
+    */
+
+    /* padding: 30px 50px 10px 20px; ShortHand*/
+
+    /* 
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    */
+
+    padding: 20px;/*ShortHand*/
+
+    /* margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 60px; */
+
+    /* margin: 50px 30px 40px 60px; */
+
+    /* margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px; */
+
+    margin:50px;
+
+}
+.typo{
+    font-size: 20px;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-align: center;/* Center on horizontal line not column line */
+}
+/* Color System */
+/*          Red   Green  Blue  Alpha */
+/* RGBA ->  (0-255,0-255,0-255,  0-1   )
+                            Red    Green    Blue   alpha */
+/* HexaDecimal values #->   00-ff  00-ff    00-ff  00-ff */
+#colorP{
+    color: #00ff0000; /* equal -> 0f0 00*/
+    color:rgba(255,0,255,1);
+    background-color: rgba(0,0,255,.5);
+    background-image: url("./../Images/cat.jpeg");
+    height: 500px;
+    background-size: contain;
+    background-repeat: repeat-x;
 }
