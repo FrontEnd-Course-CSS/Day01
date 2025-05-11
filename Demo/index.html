@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day01 - Demo</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css" /> <!-- For Link The Css Style.css File With This HTML file -->
+    <!-- Internal Style CSS [Has 2nd effect if you apply the three [inline-internal-external]style types on the same element] -->
+    <style>
+        p {/* For Tag Selection */
+            color: red;/*Property -> Key:Value; */
+            font-size: 50px;
+            font-weight: lighter;
+        }
+        
+        h1 {
+            color: chocolate;
+        }
+        
+        h3 {
+            font-size: 50px;
+            font-weight: bold;
+        }
+        h5{
+            color: blue;
+        }
+        </style>
 </head>
+
 <body>
-    
+    <!-- Inline Style CSS [has 1st effect if you apply the three [inline-internal-external]style types on the same element]-->
+    <h1 style="color: red;">Demo - Day01 - CSS</h1>
+    <h3>Hello from day01 </h3>
+    <h4>My name is Eslam Ashraf Abdelazem</h4>
+    <p style="color: brown;font-size: 100px;font-weight: lighter;">How Are You Brother ? </p>
+    <h5>Test Internal & External CSS Style</h5>
+
+    <h3>Boys</h3>
+    <p class="boys">Eslam</p>
+    <p class="boys" id="Catholic">Girgis</p>
+    <p class="boys">Mohamed</p>
+    <p class="boys" id="Yahodi">Abanoub</p>
+
+    <h3>Girls</h3>
+    <p class="girls">Hind</p>
+    <p class="girls" id="Sunni">Soia</p>
+    <p class="girls">Rana</p>
+    <p class="girls" id="Hindosi">WAlternia</p>
+
+    <p class="boys">I'm Eslam Ashraf Abdelazem And i'm Boy, classifyed under class boy And i have style using class name selector.</p>
+
+    <h6 class="className" id="id">Select by ID Vs Select by class Vs Select by tag [on one element that has class attribute and id attribute with same style]</h6>
 </body>
+
 </html>
+
+<!-- Syntax -->
+<!-- HTML -> Tags -->
+<!-- CSS -> Key:Value; -->
+<!-- CSS -> Cascading Style Sheet -->
+<!-- 1-Strength of effect for styling [inline-internal-external] is powered by what nearest to the HTML File -->
+<!-- 
+    2-Strength of effect for styling [inline-internal-external] is powered by executing of code line by line 
+        So [inline is has affect over internal because it came after the internal style in the HTML file].
+        *Note* -> If the <style></style> came after <link/> of external css file -> [the internal style will has affect over the external if you style on the same element].
+        *Note* -> If the <link/> came after <style></style>  -> [the external style will has affect over the internal if you style on the same element].
+-->
+
+<!-- *But We will use external style always.* -->

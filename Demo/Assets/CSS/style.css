@@ -1,0 +1,51 @@
+/* External Style CSS [has 3rd effect if you apply the three [inline-internal-external]style types on the same element]*/
+h4{/* Select by tag name */
+    color: blueviolet;
+    font-size: 50px;
+    font-weight: lighter;
+    background-color: aqua;
+}
+h5{
+    color: orange;
+}
+p{
+    color: aqua;
+    font-size: 50px;
+    font-weight: lighter;
+}
+h6{
+    color: green;
+    font-size: 20px;
+}
+.boys{ /* Select by class name (.className) */
+    color: blue;
+}
+.girls{
+    color: white;
+    background-color: pink;
+}
+#Catholic{
+    background-color: brown;
+}
+#Sunni{
+    background-color: aqua;
+}
+#Yahodi{
+    background-color: bisque;
+}
+#Hindosi{
+    background-color: blueviolet;
+}
+/* *Select by ID Vs Select by class Vs Select by tag [on one element that has class attribute and id attribute with same style] */
+/* - Select by ID Has More Effect than Select by class and select by tag name */
+/* - Select by Class Name More Effect than Select by tag name */
+/* Even if the select by id came first and then select by class or tag name on the same element with same style effect */
+h6{
+    background-color: black;
+}
+.className{
+    background-color: blue;
+}
+#id{
+    background-color: pink;
+}
