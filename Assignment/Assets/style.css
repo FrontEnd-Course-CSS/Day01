@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+.MDiv{
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+    border: red 2px solid;
+}
+#salahP{
+    color: #0a2895ef;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+.salahC{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color:red;
+    width: fit-content;
+}
+#button{
+    border-radius: 5px;
+}
+.Images{
+    border: red 2px solid;
+    background-color: beige;
+    width: fit-content;
+    padding:25px;
+    margin:10px;
+}
+form{
+    background-color: beige;
+    width: fit-content;
+    padding: 20px;
+}
+.txt{
+    border-radius: 5px;
+}
